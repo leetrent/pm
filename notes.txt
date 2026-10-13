@@ -1,0 +1,49 @@
+
+# Change directory to frontend
+cd frontend
+
+# Install dependencies (if needed)
+npm install
+
+# Start the development server:
+npm run dev
+
+# Open http://localhost:3000 in your browser.
+
+# Run Tests:
+cd frontend
+
+# Run all unit tests once:
+npm test
+
+# Run unit tests in interactive watch mode (re-runs on file save):
+npx vitest
+
+# Run a specific unit test file:
+npx vitest run src/components/__tests__/KanbanBoard.test.tsx
+npx vitest run src/lib/__tests__/kanban.test.ts
+
+# Run end-to-end integration tests (Playwright headless):
+npm run test:e2e
+
+# Run end-to-end tests with Playwright interactive UI:
+npx playwright test --ui
+
+# View the latest HTML report from Playwright:
+npx playwright show-report
+
+# View the latest HTML report from Playwright:
+npx playwright show-report
+
+
+
+
+
+
+
+
+
+
+
+
+
